@@ -39,7 +39,6 @@ export default DS.Model.extend({
 			id: 7,
 			text:"Deck of Cards and a novel. You will get bored.",
 			completed: false,
-		},
-
+		}
 	]
 })
