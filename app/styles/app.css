@@ -7,6 +7,7 @@ body {
 	background-color: #49693A;
 	font-family: 'Indie Flower', cursive;
 	font-color: white;
+
 }
 
 .checklist-background {
@@ -65,9 +66,20 @@ body {
     margin: 0 auto;
     left:0; 
     right:0;
-    margin-left: 215px;
-    font-size: 2em;
+    margin-left: 175px;
+    font-size: 1.25em;
     font-weight: 700;
+}
+
+.fitted{
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.wordwrap{
+    width: 400px;
+    padding-right: 10px;
+    word-wrap: break-word;
 }
 
 

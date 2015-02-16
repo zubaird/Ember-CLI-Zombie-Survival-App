@@ -6,20 +6,17 @@
 			<section id="main">
 
 				<ul id="tasks-list">
-					<li class="completed">
-						<label>Get to high ground.</label>
+
+					{{#each}}
+					<li class="completed fitted">
+						<label class="wordwrap">{{job}}</label>
 						<input type="checkbox" class="toggle">
 					</li>
-					<li>
-						<label>Restock tuna.</label>
-						<input type="checkbox" class="toggle">
-					</li>
-					<li>
-						<label>Find a twinkie.</label>
-						<input type="checkbox" class="toggle">
-					</li>
+					{{/each}}
+
+
 				</ul>
-				
+
 			</section>
 		</div>
 	</div>

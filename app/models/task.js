@@ -7,38 +7,38 @@ export default DS.Model.extend({
 	FIXTURES: [
 		{
 			id: 1,
-			text:"Load up good comfy backpack. You'll need a lot of storage for you gear.",
-			completed: false,
+			job:"Load up good comfy backpack. You'll need a lot of storage for you gear.",
+			completed: false
 		},
 				{
 			id: 2,
-			text:"Look for sleeping bag. You will have to sleep sooner or later.",
-			completed: false,
+			job:"Look for sleeping bag. You will have to sleep sooner or later.",
+			completed: false
 		},
 				{
 			id: 3,
-			text:"Grab ear plugs. To drown out the moaning of the undead.",
-			completed: false,
+			job:"Grab ear plugs. To drown out the moaning of the undead.",
+			completed: false
 		},
 				{
 			id: 4,
-			text:"Obtain red glow sticks. Good light source.",
-			completed: false,
+			job:"Obtain red glow sticks. Good light source.",
+			completed: false
 		},
 				{
 			id: 5,
-			text:"Find Hachet or machete. Both make great close quarters weapons and both are excellent survival tools.",
-			completed: false,
+			job:"Find Hachet or machete. Both make great close quarters weapons and both are excellent survival tools.",
+			completed: false
 		},
 				{
 			id: 6,
-			text:"Get Local map. Preferably a state or provincial map with roads/backroads and bodies of water.",
-			completed: false,
+			job:"Get Local map. Preferably a state or provincial map with roads/backroads and bodies of water.",
+			completed: false
 		},
 				{
 			id: 7,
-			text:"Deck of Cards and a novel. You will get bored.",
-			completed: false,
+			job:"Deck of Cards and a novel. You will get bored.",
+			completed: false
 		}
 	]
 })
