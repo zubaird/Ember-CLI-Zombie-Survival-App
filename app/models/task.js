@@ -2,13 +2,13 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   job: DS.attr("string"),
-  complete: DS.attr("boolean")
+  completed: DS.attr("boolean")
 }).reopenClass({
 	FIXTURES: [
 		{
 			id: 1,
 			job:"Load up good comfy backpack. You'll need a lot of storage for you gear.",
-			completed: false
+			completed: true
 		},
 				{
 			id: 2,

@@ -10,6 +10,10 @@ body {
 
 }
 
+.completed {
+    text-decoration: line-through;
+}
+
 .checklist-background {
 	width: 800px;
 	height: 800px;
@@ -66,20 +70,39 @@ body {
     margin: 0 auto;
     left:0; 
     right:0;
-    margin-left: 175px;
+    margin-left: 150px;
     font-size: 1.25em;
     font-weight: 700;
 }
 
 .fitted{
-    width: 500px;
+    width: 525px;
     padding-bottom: 25px;
 }
 
 .wordwrap{
-    width: 400px;
-    padding-right: 10px;
+    width: 375px;
+    padding-right: 15px;
     word-wrap: break-word;
+}
+
+button {
+   color: rgb(230, 230, 230);
+    font-size: 15px;
+    padding: 0px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(250, 20, 20) 0%);
+    background: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(250, 20, 20) 0%);
+    background: -o-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(250, 20, 20) 0%);
+    background: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(250, 20, 20) 0%);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(250, 20, 20) 0%);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow:    0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 

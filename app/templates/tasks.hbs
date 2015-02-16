@@ -7,16 +7,16 @@
 
 				<ul id="tasks-list">
 
-					{{#each}}
-					<li class="completed fitted">
-						<label class="wordwrap">{{job}}</label>
-						<input type="checkbox" class="toggle">
+					{{#each task in model itemController="task"}}
+					<div {{bind-attr class="task.isCompleted:completed "}} >
+					<li class="fitted">
+						{{input type="checkbox" checked=task.isCompleted class="toggle"}}
+						<label class="wordwrap">{{task.job}}</label>
+						<button {{action "removeTask"}} class="destroy">X</button>
 					</li>
+					</div>
 					{{/each}}
-
-
 				</ul>
-
 			</section>
 		</div>
 	</div>
