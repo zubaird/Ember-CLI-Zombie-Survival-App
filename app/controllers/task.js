@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.ObjectController.extend({
- isCompleted: function(key, value){
+  isCompleted: function(key, value){
     var model = this.get('model');
     if (value === undefined) {
       // property being used as a getter
@@ -15,11 +15,10 @@ export default Ember.ObjectController.extend({
   }.property('model.completed'),
 
   actions: {
-	removeTask: function() {
-	    var model = this.get('model');
-	    model.deleteRecord();
-	    model.save();
-	}
+    removeTask: function() {
+      var model = this.get('model');
+      model.deleteRecord();
+      model.save();
+    },
   }
-
 });
