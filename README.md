@@ -1,6 +1,6 @@
 # Ember-cli-zombie-survival-app
 
- Visit zubaird.github.io for the Ember-CLI Zombie Survival Walkthrough!
+ Visit [zubaird.github.io](zubaird.github.io) for the Ember-CLI Zombie Survival Walkthrough!
 
 ## Prerequisites
 
